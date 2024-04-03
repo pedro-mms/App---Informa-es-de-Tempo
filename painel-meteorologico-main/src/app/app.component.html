@@ -1,0 +1,5 @@
+<div class="container">
+  <app-seletor-cidade class="card-spacing"(cidadeSelecionada)="onCidadeSelecionada($event)"></app-seletor-cidade>
+  <app-informacao-clima class="card-spacing" *ngIf="showWeatherComponents" [clima]="clima"></app-informacao-clima>
+ </div>
+ 

@@ -1,0 +1,29 @@
+/* detalhes-clima.component.css */
+.mat-card {
+  width: 300px; /* largura do cartão */
+  margin: 20px auto; /* margem para centralizar */
+  background-color: #f5f5f5; /* cor de fundo */
+  border-radius: 8px; /* borda arredondada */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* sombra */
+}
+
+.mat-card-header {
+  background-color: #2196f3; /* cor de fundo do cabeçalho */
+  color: white; /* cor do texto do cabeçalho */
+  border-top-left-radius: 8px; /* arredondamento do canto superior esquerdo */
+  border-top-right-radius: 8px; /* arredondamento do canto superior direito */
+}
+
+.mat-card-content {
+  padding: 16px; /* preenchimento interno */
+}
+
+.mat-card-title {
+  font-size: 18px; /* tamanho da fonte do título */
+  margin: 0; /* remover margem padrão */
+}
+
+p {
+  margin: 8px 0; /* margem entre parágrafos */
+  font-size: 16px; /* tamanho da fonte dos parágrafos */
+}

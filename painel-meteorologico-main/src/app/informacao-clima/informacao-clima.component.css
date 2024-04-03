@@ -1,0 +1,35 @@
+/* informacao-clima.component.css */
+
+/* Espaçamento entre os cards */
+.spacing {
+  margin-bottom: 20px;
+}
+
+/* Estilo para o título do card */
+.mat-card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Estilo para os detalhes de temperatura e condição */
+.mat-card-content p {
+  margin: 5px 0;
+}
+
+/* Estilo para o botão de mais detalhes */
+.mat-card-actions button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.mat-card-actions button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para o componente de detalhes do clima */
+app-detalhes-clima {
+  margin-top: 10px;
+}

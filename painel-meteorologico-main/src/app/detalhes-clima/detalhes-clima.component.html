@@ -1,0 +1,14 @@
+<!-- detalhes-clima.component.html -->
+<mat-card *ngIf="clima">
+  <mat-card-header>
+      <mat-card-title>Detalhes do Clima</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+      <p>Temperatura Mínima: {{ clima.main.temp_min }}°C</p>
+      <p>Temperatura Máxima: {{ clima.main.temp_max }}°C</p>
+      <p>Umidade: {{ clima.main.humidity }}%</p>
+      <p>Velocidade do Vento: {{ clima.wind.speed }} m/s</p>
+      <p>Pressão Atmosférica: {{ clima.main.pressure }} hPa</p>
+  </mat-card-content>
+ </mat-card>
+ 
